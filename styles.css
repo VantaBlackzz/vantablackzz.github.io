@@ -72,11 +72,11 @@ src: url("/fonts/Matreshka.ttf")
 }
 
 .card {
-    max-width: 300px;
+    max-width: 600px;
     border: 2px solid white;
     border-radius: 5px;
     box-shadow: 15px 15px 20px;
-    margin-left: 15%;
+    margin: 15%;
     justify-content: center;
     text-align: center;
 }
@@ -89,6 +89,10 @@ src: url("/fonts/Matreshka.ttf")
 .card_content {
     display:grid;
     grid-template-columns: repeat(1, 1fr);
+}
+.card_content_img {
+	display: flex;
+	justify-content: center;
 }
 
 /* git commands */
