@@ -59,6 +59,23 @@ src: url("/fonts/Matreshka.ttf")
     margin-top: 50px;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 95%;
+  min-height: 1000px;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 15px 15px 20px;
+}
+
+.text-content {
+  width: 95%;
+  color: white;
+
+}
+
 .cards_container {
     display: grid;
     width: 95%;
