@@ -70,10 +70,10 @@ src: url("/fonts/Matreshka.ttf")
   box-shadow: 15px 15px 20px;
 }
 
-.text-content {
+.text_content {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 95%;
   color: white;
-
 }
 
 .cards_container {
@@ -100,6 +100,7 @@ src: url("/fonts/Matreshka.ttf")
 
 .card_header {
     color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 2px solid white;
 }
 
